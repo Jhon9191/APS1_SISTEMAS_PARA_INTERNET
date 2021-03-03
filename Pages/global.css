@@ -7,6 +7,7 @@
 :root {
     --white: #FFF;
     --background: #F2F3F5;
+    --backgroundMain: #21293a;
     --gray-line: #DCDDE0;
     --text: #666666;
     --text-highlight: #B3B9FF;
@@ -32,7 +33,7 @@
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--backgroundMain);
     color: var(--text);
 }
 
