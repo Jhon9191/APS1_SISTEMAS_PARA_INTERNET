@@ -98,6 +98,7 @@ main {
 
 
 .logosDoApps{
+    padding: 30px;
     background-color: rgba(248, 123, 15, 1);
     height: 100vh;
     display: flex;
@@ -105,7 +106,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}.logosDoApps div{
+}.containerLogos {
     width: 40%;
     display: flex;
     flex-direction: row;
@@ -131,11 +132,40 @@ main {
 }.logos:hover{
     transform: scale(0.96);
 }
-
 .logosDoApps h1{
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
+}
+
+.containerCard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: row;
+    width: 35%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}.card p{
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    margin: 10px;
+    color: #000;
 }
 
 
@@ -150,7 +180,7 @@ footer {
     background-color: var(--title);
 }
 
-.cards {
+.footerInfos {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
