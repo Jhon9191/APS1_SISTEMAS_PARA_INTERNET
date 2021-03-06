@@ -80,19 +80,22 @@ main {
 }
 
 
-.texoBoasVindas{ 
+
+.hisotriaEmpresa{ 
+    padding: 180px;
     display: flex;
-    height: 100vh;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}.texoBoasVindas h1{
+    text-align: justify;
+}.hisotriaEmpresa h1{
     font-family: Tahoma, sans-serif;
     font-weight: 700;
     font-size: 6rem;
-}.texoBoasVindas p{
+    margin-bottom: 10px;
+}.hisotriaEmpresa p{
     font-size:1.45rem;
 }
 
@@ -106,70 +109,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}.containerLogos {
-    width: 40%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}.logosDoApps a{
-    text-decoration: none;
-    text-align: center;
 }
-.logosDoApps h1{
-    font-family:  Tahoma, sans-serif;
-    font-weight: 700;
-}
-.logos{
-    max-width: 50%;
-    max-height: 50%;
-    margin: 30px;
-    width: 30%;
-    min-width: 100px;
-    height: 30%;
-    min-height: 100px;
-    transition: .3s all;
-}.logos:hover{
-    transform: scale(0.96);
-}
-.logosDoApps h1{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-.containerCard{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.card{
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    flex-direction: row;
-    width: 35%;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.card img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}.card p{
-    font-family: Helvetica, sans-serif;
-    text-align: justify;
-    margin: 10px;
-    color: #000;
-}
-
-
-
 
 footer {
     bottom: 0;
