@@ -71,29 +71,26 @@ main {
 
 
 
-.listaNaoOrdenada{ 
+.formsNewProduct{ 
     padding: 180px;
     display: flex;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: justify;
-}.listaNaoOrdenada h2{
-    font-size: 3rem;
-    padding: 30px;
-    color: var(--white);
-}.listaNaoOrdenada ul{
-    background-color: var(--title);
-    padding: 30px;
+}.formsNewProduct form{
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.35);
 }
 
-.listaNaoOrdenada li{
-    list-style: none;
-    color: white;
-    font-size: 2.5rem;
-}
 
 
 footer {
