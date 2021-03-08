@@ -35,9 +35,9 @@
 
 
     <main>
-
+        
         <div class="formsNewProduct">
-            <h2>Adicionar produto</h2>
+            <h1>Adicionar produto</h1>
             <form action="" method="POST">
                 <div>
                     <select name="select">
@@ -46,24 +46,27 @@
                         <option value="valor3">Messenger</option>
                     </select>
                 </div>
-                <div>
+                <div id="numberNota">
                     <label for="Nota">Nota:</label>
                     <input type="number" min="0" max="10" />
                 </div>
-                <div>
+                <div id="grauDeSatisfacao">
                     <label for="Nota">Satisfeito: </label>
                     <input type="radio" id="sim" name="grauSatisfacao" value="sim">
                     <label for="male">Sim</label><br>
                     <input type="radio" id="nao" name="grauSatisfacao" value="nao">
                     <label for="female">Não</label><br>
                 </div>
-                <div>
-                    <input type="checkbox" id="scales" name="streaming">
-                    <label for="streaming">streaming</label>
-                    <input type="checkbox" id="anotacoes" name="anotacoes">
-                    <label for="anotacoes">Anotações</label>
-                    <input type="checkbox" id="conversa" name="conversa">
-                    <label for="conversa">Conversa</label>
+                <div id="genero">
+                    <h2>Gênero</h2>
+                    <div>
+                        <input type="checkbox" id="scales" name="streaming">
+                        <label for="streaming">Streaming</label>
+                        <input type="checkbox" id="anotacoes" name="anotacoes">
+                        <label for="anotacoes">Anotações</label>
+                        <input type="checkbox" id="conversa" name="conversa">
+                        <label for="conversa">Conversa</label>
+                    </div>
                 </div>
                 <button type="submit">Confirmar</button>
             </form>

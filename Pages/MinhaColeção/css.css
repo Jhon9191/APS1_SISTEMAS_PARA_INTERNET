@@ -55,7 +55,6 @@ main {
     align-items: center;
     justify-content: center;
 }
-
 .bannerEmpressa {
     width: 100%;
     height: 170px;
@@ -63,15 +62,14 @@ main {
     background: linear-gradient(90deg, rgba(214, 59, 93, 1) 0%, rgba(248, 123, 15, 1) 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 .bannerEmpressa img {
     width: 100%;
     height: 95%;
     opacity: 0.6;
 }
 
-
-
-.formsNewProduct{ 
+.formsNewProduct {
     padding: 180px;
     display: flex;
     height: 100vh;
@@ -79,10 +77,17 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}.formsNewProduct form{
+}
+
+.formsNewProduct h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.formsNewProduct form {
     background-color: white;
     border-radius: 10px;
-    width: 60%;
+    width: 50%;
     padding: 60px;
     display: flex;
     flex-direction: column;
@@ -91,7 +96,92 @@ main {
     box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.35);
 }
 
+.formsNewProduct form select {
+    background-color: var(--white);
+    display: flex;
+    width: 380px;
+    padding: 10px;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+}
 
+.formsNewProduct form button {
+    border: 0;
+    border-radius: 30px;
+    width: 150px;
+    padding: 15px;
+    background-color: var(--title);
+    color: white;
+    font-weight: bold;
+}
+
+#numberNota {
+    width: 100%;
+}
+
+#numberNota label {
+    color: var(--title);
+    font-size: 25;
+    font-weight: bold;
+}
+
+#numberNota input {
+    background-color: var(--white);
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#grauDeSatisfacao {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#grauDeSatisfacao label{
+    color: var(--title);
+    font-size: 25;
+    font-weight: bold;
+}
+
+#genero {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#genero label {
+    color: var(--title);
+    font-size: 25;
+    font-weight: bold;
+}
+
+
+#genero h2 {
+    color: var(--title);
+    font-size: 25;
+}
+
+#genero div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 
 footer {
     bottom: 0;
