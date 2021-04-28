@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+#row-nav{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--title);
+}
+
+#logo-col-8 {
+    /* background-color: aqua; */
+}
+
+#nav-col-8{
+    /* background-color: blue; */
+}
+
+
+#item-id {
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 0.8em;
+    color: var(--white);
+    transition: .2s all;
+}
+#item-id:hover {
+    color: rgb(126, 126, 126);
+    transition: .2s all;
+} 
+
 header {
     display: flex;
     width: 100%;
@@ -96,6 +124,12 @@ main {
 }
 
 
+#hr-footer{
+    height: 2px;
+    margin-bottom: 20px;
+    background-color: var(--title);
+}
+
 footer {
     bottom: 0;
     position: relative;
@@ -105,10 +139,12 @@ footer {
     background-color: var(--title);
 }
 
-.footerInfos {
+#footerInfos {
+    background-color: var(--title);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
